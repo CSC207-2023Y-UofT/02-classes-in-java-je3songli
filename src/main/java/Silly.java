@@ -80,6 +80,16 @@ public class Silly implements Comparable<Silly>{
      *       Make sure you document this method!
      */
 
+    /**
+     * Creates a new Silly object.
+     * This constructor takes in two strings as arguments.
+     *
+     * @param name1 the first part of the name of this Silly instance
+     * @param name2 the second part of the name of this Silly instance
+     */
+    public Silly(String name1, String name2) {
+        this.name = name1 + name2;
+    }
 
 
 
